@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Insert title here</title>
+
+<script>
+function sum(){
+	var num = document.getElementById("in").value;
+	var sum = 0;
+	
+	for(var i=0; i<=num; i++){
+		sum += i;
+	}
+	
+	document.getElementById("res").innerHTML = sum;
+}
+</script>
+
+</head>
+<body>
+<input type="text" id="in">
+<input type="button" onclick="sum();" id="bt" value="submit">
+<p id="res"></p>
+
+</body>
+</html>

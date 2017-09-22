@@ -1,0 +1,21 @@
+	#bod{
+    	background-position: 0% -10%;
+    	background-image: url(../image/kel.jpg);
+    	background-repeat: no-repeat;
+    	background-size: 130%;
+    	background-color: #fffff;
+    }
+    
+     #white{
+     	color: white;
+    	text-shadow: 0.2em 0.2em 0.1em #333;
+    }
+    
+    #margin{
+    	margin-right: 40px;
+    	margin-top: 20px;
+    }
+    
+    div.container {
+       padding-top: 30px
+    }

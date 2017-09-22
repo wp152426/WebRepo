@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Insert title here</title>
+
+<script>
+function changeCol(color){
+	var c = document.getElementById('container');
+	c.style.backgroundColor = color;
+}
+function toUpperCase(e){
+	e.value = word.value.toUpperCase();
+}
+function addBorder(){
+	var box = document.getElementById('box');
+	box.style.border = "1px solid"
+}
+function removeBorder(){
+	var box = document.getElementById('box');
+	box.style.border = ""
+}
+</script>
+
+</head>
+<body onload="alert('load on');" >
+<div id="container">
+<input type="radio" name="color" onclick="changeCol('yellow');">Yellow
+<input type="radio" name="color" onclick="changeCol('blue');">Blue
+<input type="radio" name="color" onclick="changeCol('white');">Roll back
+<br><br>
+<input type="text" id="word" onchange="toUpperCase(this);">
+<br><br>
+<div id="box" onmouseover="addBorder();" onmouseout="removeBorder();">
+마우스를 여기로 올려놓으세요
+</div>
+</div>
+
+</body>
+</html>
