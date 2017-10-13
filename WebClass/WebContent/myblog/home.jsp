@@ -46,7 +46,7 @@
        <% } else { %>
        <div class="nav-item dropdown">
 	      <a class="nav-item nav-link dropdown-toggle mr-md-2" href="#" id="bd-versions" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-	    	<%= session.getAttribute("id") %>님
+	    	임형준님
 	      </a>
 	      <div class="dropdown-menu dropdown-menu-right" aria-labelledby="bd-versions">
 	      	<form class="signout" action="/WebClass/bloglogout" method="post">
